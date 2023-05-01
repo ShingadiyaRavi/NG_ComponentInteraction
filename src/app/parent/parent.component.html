@@ -1,0 +1,12 @@
+<p>parent works!</p>
+<hr>
+
+<h1>Parent through access counter : {{childComponent.counter}}</h1>
+<h1>Parent through access childName : {{childComponent.childName}}</h1>
+
+
+
+<button (click)="incrementByParent()">Increment By Parent</button>
+<button (click)="decrementByParent()">Decrement By Parent</button>
+<app-child [student]="childComponent"></app-child>
+

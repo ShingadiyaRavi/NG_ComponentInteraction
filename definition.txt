@@ -1,0 +1,3 @@
+Task - 02
+
+[Component Interaction] How to parent access the child properties(methods,variable..) and how to child access the parent properties(methods, variables...)
